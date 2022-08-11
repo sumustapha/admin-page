@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="40" height="40">
+    <style type="text/css">
+        svg .brand-animate {
+            -webkit-animation: rotate 1s infinite linear;
+            animation: rotate 1s infinite linear;
+            transform-origin: 24px 24px;
+            -webkit-transform-origin: 24px 24px;
+            -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+            -webkit-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+
+        }
+
+        .pace-running .brand-animate {
+            -webkit-animation-play-state: running;
+            animation-play-state: running
+        }
+
+        @-webkit-keyframes rotate {
+            0% {
+                -webkit-transform: rotate(0);
+                transform: rotate(0)
+            }
+
+            100% {
+                -webkit-transform: rotate(359deg);
+                transform: rotate(359deg)
+            }
+        }
+
+        @keyframes rotate {
+            0% {
+                -webkit-transform: rotate(0);
+                transform: rotate(0)
+            }
+
+            100% {
+                -webkit-transform: rotate(359deg);
+                transform: rotate(359deg)
+            }
+        }
+    </style>
+    <g>
+        <!--<circle cx="24" cy="24" r="24" fill="rgba(255,255,255,0.2)" id="svg_1"/>-->
+        <circle cx="24.43478" cy="24.14493" r="22" fill="#ff0000" class="brand-color" />
+        <circle cx="24" cy="24" r="10" fill="#ffffff" id="svg_3" />
+        <circle cx="13" cy="13" r="2" fill="#ffffff" class="brand-animate" />
+        <path d="m33.95414,23.76621l-9.92734,0l9.92733,20l0,-20z" fill="#FFFFFF" />
+        <path fill="#ff0000" d="m28.22122,23.22757l-5.88696,-3.88809c-0.47832,-0.31576 -1.21084,-0.00934 -1.21084,0.77164l0,7.77432c0,0.70064 0.68068,1.1229 1.21084,0.77164l5.88696,-3.88623c0.52514,-0.34565 0.52682,-1.19763 0,-1.54328z" />
+    </g>
+</svg>

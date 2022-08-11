@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="logo">
+            <h1 class="dashboard"><span class="dashboardIcon">
+                <i class="mdi mdi-view-dashboard"></i>
+            </span>Dashboard</h1>
+        </div>
+        <div class="home">
+            <nav class="adminPages">
+                <ul>
+                    <li class="navItems"><a class="navLinks"href="#"><span><i class="mdi mdi-home"></i></span>Home</a></li>
+                    <li class="navItems"><a class="navLinks"href="#"><span><i class="mdi mdi-account-circle"></i></span>Profile</a></li>
+                    <li class="navItems"><a class="navLinks"href="#"><span><i class="mdi mdi-message-reply"></i></span>Messages</a></li>
+                    <li class="navItems"><a class="navLinks"href="#"><span><i class="mdi mdi-history"></i></span>History</a></li>
+                    <li class="navItems"><a class="navLinks"href="#"><span><i class="mdi mdi-note-multiple"></i></span>Tasks</a></li>
+                    <li class="navItems"><a class="navLinks"href="#"><span><i class="mdi mdi-account-group-outline"></i></span>Communication</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="settings">
+            <nav class="adminSettings">
+                <ul>
+                    <li class="navItems"><a class="navLinks"href="#"><span><i class="mdi mdi-cog"></i></span>Settings</a></li>
+                    <li class="navItems"><a class="navLinks"href="#"><span><i class="mdi mdi-chat-question"></i></span>Support</a></li>
+                    <li class="navItems"><a class="navLinks"href="#"><span><i class="mdi mdi-shield-check"></i></span>Privacy</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <main class="mainContent">
+        <header class="header">
+                <ul class="topHeader">
+                    <li class="topHeaderItem search">
+                        <input type="text" name="search" id="search" placeholder="Search">
+                        <span id="magnifier"><i class="mdi mdi-magnify"></i></span>
+                    </li>
+                    <li class="topHeaderItem"><a class="topHeaderLinks"href="#"><i class="mdi mdi-bell"></i></a></li>
+                    <li class="topHeaderItem"><a class="topHeaderLinks"href="#"><span><img src="icons/logo.svg" alt="profileLogo"></span></a></li>
+                    <li class="topHeaderItem"><span id="username">Suleiman Mustapha</span></li> 
+                </ul>
+                <section class="headerBottom">
+                    <div class="lowerImg"><a class="bottomImg"href="#"><img src="icons/logo.svg" alt="profileLogo"></a></div>
+                    <p class="small">
+                        Hi there,<br><span class="big">Suleiman Mustapha(@sumustapha)</span>
+                    </p>
+                    <button class="btn1">New</button>
+                    <button class="btn2">Upload</button>
+                    <button class="btn3">Share</button>
+                </section>
+        </header>
+        <section class="pageContent">
+            <div class="titles">
+                <h2 class="projects">Projects</h2>
+                <h2 class="announcements">Announcements</h2>
+            </div>
+            <div id="projects">
+                <article class="cards">
+                    <h2 class="projectTitle">Calculator</h2>
+                    <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti labore consequatur sunt adipisci veniam laboriosam.</p>
+                    <div class="icons">
+                        <i class="mdi mdi-star-plus-outline"></i>
+                        <i class="mdi mdi-eye-plus-outline"></i>
+                        <i class="mdi mdi-share-variant-outline"></i>
+                    </div>
+                </article>
+                <article class="cards">
+                    <h2 class="projectTitle">Etch-A-Sketch</h2>
+                    <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti labore consequatur sunt adipisci veniam laboriosam.</p>
+                    <div class="icons">
+                        <i class="mdi mdi-star-plus-outline"></i>
+                        <i class="mdi mdi-eye-plus-outline"></i>
+                        <i class="mdi mdi-share-variant-outline"></i>
+                    </div>
+                </article>
+                <article class="cards">
+                    <h2 class="projectTitle">Rock-Paper-Scissors</h2>
+                    <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti labore consequatur sunt adipisci veniam laboriosam.</p>
+                    <div class="icons">
+                        <i class="mdi mdi-star-plus-outline"></i>
+                        <i class="mdi mdi-eye-plus-outline"></i>
+                        <i class="mdi mdi-share-variant-outline"></i>
+                    </div>
+                </article>
+                <article class="cards">
+                    <h2 class="projectTitle">Landing Page</h2>
+                    <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti labore consequatur sunt adipisci veniam laboriosam.</p>
+                    <div class="icons">
+                        <i class="mdi mdi-star-plus-outline"></i>
+                        <i class="mdi mdi-eye-plus-outline"></i>
+                        <i class="mdi mdi-share-variant-outline"></i>
+                    </div>
+                </article>
+                <article class="cards">
+                    <h2 class="projectTitle">Tic-Tac-Toe</h2>
+                    <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti labore consequatur sunt adipisci veniam laboriosam.</p>
+                    <div class="icons">
+                        <i class="mdi mdi-star-plus-outline"></i>
+                        <i class="mdi mdi-eye-plus-outline"></i>
+                        <i class="mdi mdi-share-variant-outline"></i>
+                    </div>
+                </article>
+                <article class="cards">
+                    <h2 class="projectTitle">Admin Page</h2>
+                    <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti labore consequatur sunt adipisci veniam laboriosam.</p>
+                    <div class="icons">
+                        <i class="mdi mdi-star-plus-outline"></i>
+                        <i class="mdi mdi-eye-plus-outline"></i>
+                        <i class="mdi mdi-share-variant-outline"></i>
+                    </div>
+                </article>
+            </div>
+            <div id="anouncements">
+                <div class="announcementBoard">
+                    <article class="top">
+                        <h3 class="announcementName"><strong>Site Maintainance</strong></h3>
+                        <p class="announcementText">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptates quisquam corporis praesentium.
+                        </p>
+                    </article>
+                    <article class="top">
+                        <h3 class="announcementName"><strong>Site Maintainance</strong></h3>
+                        <p class="announcementText">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptates quisquam corporis praesentium.
+                        </p>
+                    </article>
+                    <article class="top">
+                        <h3 class="announcementName"><strong>Site Maintainance</strong></h3>
+                        <p class="announcementText">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptates quisquam corporis praesentium.
+                        </p>
+                    </article>
+                </div>
+                <h2 class="trending">Trending</h2>
+                <div class="trendBoard">
+                    <article class="trend">
+                        <img src="icons/logo.svg" alt="">
+                        <p class="smallTrend">
+                            @tegan<br><span class="bigTrend">World Peace Builder</span>
+                        </p>
+                    </article>
+                    <article class="trend">
+                        <img src="icons/logo.svg" alt="">
+                        <p class="smallTrend">
+                            @habu<br><span class="bigTrend">Biggest SuperStar</span>
+                        </p>
+                    </article>
+                    <article class="trend">
+                        <img src="icons/logo.svg" alt="">
+                        <p class="smallTrend">
+                            @dellcomputers<br><span class="bigTrend">AlienWare Hits</span>
+                        </p>
+                    </article>
+                    <article class="trend">
+                        <img src="icons/logo.svg" alt="">
+                        <p class="smallTrend">
+                            @dawisu<br><span class="bigTrend">Sarkin Ado Kenan</span>
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
